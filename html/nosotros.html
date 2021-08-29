@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Tienda online de impresiones 3d">
+  	<meta name="keywords" content="3d, impresiones 3d, imprimir 3d">
+  	<meta name="author" content="Cleman Azpiroz">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DraftPrint3d/nosotros</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+<body>
+    <nav id="menu">
+		<header>
+			<h1><a href=/index.html>Draft Print3d</a></h1>
+			<ul>
+					<li><a href=/index.html>
+					<li><a href=tienda.html>Tienda</a></li>
+					<li><a href=encargues.html>Encargues</a></li>
+					<li><a href=nosotros.html>Nosotros</a></li>
+					<li><a href=login.html>Login</a></li>
+			</ul>
+		</header>
+	</nav>
+    <h1 class="impresion">Nosotros</h1>
+    
+
+    <main id="primario">
+    <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded" id="encargue">
+        <h3>Tu consulta no molesta!</h3>
+        <br>
+        correo electronico: <input type="mail"> <br> <br>
+        adjuntar archivo: <input type="file"> <br> <br>
+        <textarea name="tarea" id="" cols="30" rows="10" placeholder="Ingrese consulta..."></textarea><br>
+        <input type="submit" value="enviar">
+        <input type="reset" value="deshacer">
+        <input type="button" value="boton">
+        <h3>Ingresar Genero:</h3>
+        <label for="sexo">genero:</label>
+        hombre<input type="radio" name="sexo" value="hombre" id="sexo">
+        mujer<input type="radio" name="sexo" value="mujer" id="sexo">
+        otro<input type="radio" name="sexo" value="otro" checked>
+        
+        <fieldset>
+            <legend>OCUPACION</legend>
+            <h5>Por favor, indicar ocupacion actual</h5>
+            Estudiante<input type="checkbox">
+            Profesor<input type="checkbox">
+            Profesional<input type="checkbox">
+            Otro<input type="checkbox">
+        </fieldset>
+    </form>
+    <video id="video" src="/media/film1.mp4" preload = "auto" controls></video>
+    </main>
+    <footer id="final">Encontranos como:
+			<ul>
+				<li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+				<li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+				<li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+			</ul>
+			
+	</footer>
+</body>
+</html>
